@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "mock": "json-server --watch mocks/planets.json"
+    "mock": "json-server --watch src/assets/mocks/planets.json"
   },
   "private": true,
   "dependencies": {
@@ -19,7 +19,8 @@
     "@angular/router": "^14.1.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.11.4",
+    "json-server": "^0.17.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.1.1",
@@ -27,7 +28,6 @@
     "@angular/compiler-cli": "^14.1.0",
     "@types/jasmine": "~4.0.0",
     "jasmine-core": "~4.2.0",
-    "json-server": "^0.17.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage": "~2.2.0",
