@@ -24,7 +24,7 @@ Users should be able to:
 
 - View the optimal layout for the app depending on their device's screen size
 - See hover states for all interactive elements on the page
-- Fetch data from the mock server for each planet
+- Fetch data from the api: https://ng-mentoring-planets-api.vercel.app/
 - Implement routing for each page with planet id in the URL
 - View each planet page and toggle between "Overview", "Internal Structure", and "Surface Geology"
 
